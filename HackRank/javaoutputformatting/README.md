@@ -1,4 +1,4 @@
 ### Java Output Formatting
 
-![](/javaoutputformatting/javaout.png)
+![](/HackRank/javaoutputformatting/javaout.png)
 

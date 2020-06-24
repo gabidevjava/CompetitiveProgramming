@@ -1,4 +1,4 @@
 ### Simple Array Sum
 
 
-![](/simplearraysum/exer1.png)
+![](/HackRank/simplearraysum/exer1.png)

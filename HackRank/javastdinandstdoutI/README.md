@@ -1,4 +1,4 @@
 ### Java Stdin and Stdout I
 
 
-![](/javastdinandstdoutI/exer1.png)
+![](/HackRank/javastdinandstdoutI/exer1.png)

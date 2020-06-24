@@ -1,5 +1,5 @@
 Java if else
 
-![](/javaifelse/part.png)
+![](/HackRank/javaifelse/part.png)
 
-![](/javaifelse/partII.png)
+![](/HackRank/javaifelse/partII.png)

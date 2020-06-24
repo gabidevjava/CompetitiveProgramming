@@ -1,3 +1,3 @@
 ### Java Loops I
 
-![](/javaloopsi/java.png)
+![](/HackRank/javaloopsi/java.png)
