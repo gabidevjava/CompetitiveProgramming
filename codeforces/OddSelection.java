@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class OddSelection {
 
-	public static void main(String[] doYouBest) {
+	public static void main(String[] hadouken) {
 		final Scanner in = new Scanner(System.in);
 		final int l1 = in.nextInt();
 
