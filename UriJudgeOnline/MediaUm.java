@@ -1,4 +1,3 @@
-package mediaum;
 import java.util.Scanner;
 
 /**

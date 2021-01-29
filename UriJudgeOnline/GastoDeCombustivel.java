@@ -1,5 +1,3 @@
-package gastodecombustivel;
-
 import java.util.Scanner;
 
 /**

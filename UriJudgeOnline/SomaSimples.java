@@ -1,4 +1,3 @@
-package somasimples;
 import java.util.Scanner;
 
 

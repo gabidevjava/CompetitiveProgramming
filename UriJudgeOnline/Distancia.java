@@ -1,5 +1,3 @@
-package distancia;
-
 import java.util.Scanner;
 
 /**

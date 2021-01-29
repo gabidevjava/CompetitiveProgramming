@@ -1,5 +1,3 @@
-package area;
-
 import java.util.Scanner;
 
 /**

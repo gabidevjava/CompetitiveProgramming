@@ -1,5 +1,3 @@
-package esfera;
-
 import java.util.Scanner;
 
 /**

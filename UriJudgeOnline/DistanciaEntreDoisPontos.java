@@ -1,5 +1,3 @@
-package distanciaentredoispontos;
-
 import java.util.Scanner;
 
 /**

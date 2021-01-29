@@ -1,5 +1,3 @@
-package salario;
-
 import java.util.Scanner;
 
 /**

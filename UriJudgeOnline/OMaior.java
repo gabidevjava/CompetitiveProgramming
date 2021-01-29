@@ -1,5 +1,3 @@
-package omaior;
-
 import java.util.Scanner;
 
 /**

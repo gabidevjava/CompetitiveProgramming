@@ -1,5 +1,3 @@
-package diferenca;
-
 import java.util.Scanner;
 
 /**

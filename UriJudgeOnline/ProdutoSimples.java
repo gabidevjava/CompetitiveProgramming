@@ -1,4 +1,3 @@
-package produtosimples;
 import java.util.Scanner;
 /**
  *

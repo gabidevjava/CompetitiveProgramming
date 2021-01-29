@@ -1,5 +1,3 @@
-package calculosimples;
-
 import java.util.Scanner;
 
 /**

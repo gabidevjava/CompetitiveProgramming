@@ -1,4 +1,3 @@
-package mediadois;
 import java.util.Scanner;
 
 /**

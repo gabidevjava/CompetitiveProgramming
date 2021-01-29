@@ -1,4 +1,3 @@
-package areadocirculo;
 import java.util.*;
 /**
  *

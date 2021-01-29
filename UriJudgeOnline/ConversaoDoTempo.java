@@ -7,7 +7,7 @@ import java.util.Scanner;
  *      Class name must be "Main" for your solution to execute
  *      El nombre de la clase debe ser "Main" para que su solución ejecutar
  */
-public class Main {
+public class ConversaoDoTempo {
  
     public static void main(String[] args) throws IOException {
  

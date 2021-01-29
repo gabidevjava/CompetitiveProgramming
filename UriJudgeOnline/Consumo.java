@@ -1,5 +1,3 @@
-package consumo;
-
 import java.util.Scanner;
 
 /**
