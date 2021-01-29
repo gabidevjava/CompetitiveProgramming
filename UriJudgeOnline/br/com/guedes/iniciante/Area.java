@@ -1,17 +1,10 @@
+package br.com.guedes.iniciante;
+
 import java.util.Scanner;
 
-/**
- *
- * @author azooiverde
- */
 public class Area {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
         Scanner entrada = new Scanner(System.in);
         
         double a = entrada.nextDouble();
@@ -30,6 +23,7 @@ public class Area {
         System.out.printf("QUADRADO: %.3f\n", quadrado);
         System.out.printf("RETANGULO: %.3f\n", retangulo);
         
+        entrada.close();
+        
     }
-    
 }

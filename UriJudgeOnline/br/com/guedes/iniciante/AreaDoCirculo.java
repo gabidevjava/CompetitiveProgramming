@@ -1,16 +1,10 @@
-import java.util.*;
-/**
- *
- * @author azooiverde
- */
+package br.com.guedes.iniciante;
+
+import java.util.Scanner;
+
 public class AreaDoCirculo {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
         Scanner scan = new Scanner(System.in);
         
         double r    = scan.nextDouble();
@@ -18,6 +12,6 @@ public class AreaDoCirculo {
         
         System.out.printf("A=%.4f\n", area);
         
+        scan.close();
     }
-    
 }

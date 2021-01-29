@@ -1,16 +1,9 @@
+package br.com.guedes.iniciante;
 import java.util.Scanner;
 
-/**
- *
- * @author azooiverde
- */
 public class OMaior {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
         
         Scanner entrada = new Scanner(System.in);
         
@@ -24,6 +17,6 @@ public class OMaior {
         
         System.out.println(abc + " eh o maior");
         
-    }
-    
+        entrada.close();
+    }   
 }
