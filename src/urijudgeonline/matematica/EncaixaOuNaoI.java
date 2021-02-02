@@ -26,9 +26,9 @@ public class EncaixaOuNaoI {
 			} else {
 				int bb = Integer.valueOf(b);
 
-				if (a.length() == 2 && b.length() != 2) {
+				if(b.length() > a.length()) {
 					System.out.println("nao encaixa");
-				} else {
+				}else {
 					String novaA = a.substring(a.length() - b.length());
 					int novaAA = Integer.valueOf(novaA);
 
