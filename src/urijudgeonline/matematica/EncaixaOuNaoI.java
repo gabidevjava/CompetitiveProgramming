@@ -6,47 +6,40 @@ public class EncaixaOuNaoI {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		
+
 		int n = entrada.nextInt();
 		String a, b;
-		
-		for (int i = 0; i <= n; i++) {
-			a = entrada.nextLine();
-			b = entrada.nextLine();
-			
-			if (a.length() == 1 || b.length() == 1) {
-				System.out.println("encaixa");
-			} else if (a.length() == 2 || b.length() == 2) {
-				String novaA = a.substring(0, 2);
-				String novaB = b.substring(0, 2);
 
-				int aaa = Integer.valueOf(novaA);
-				int bbb = Integer.valueOf(novaB);
+		for (int i = 0; i < n; i++) {
+			a = entrada.next();
+			b = entrada.next();
 
-				if (aaa == bbb) {
+			if (a.length() == b.length()) {
+				int aa = Integer.valueOf(a);
+				int bb = Integer.valueOf(b);
+
+				if (aa == bb) {
 					System.out.println("encaixa");
 				} else {
 					System.out.println("nao encaixa");
 				}
-			} else if (b.length() == 2 && a.length() != 2) {
-				System.out.println("nao encaixa");
-			} else if (a.length() == 2 && b.length() != 2) {
-				System.out.println("nao encaixa");
 			} else {
-				String novaA = a.substring(0, 3);
-				String novaB = b.substring(0, 3);
+				int bb = Integer.valueOf(b);
 
-				int aaa = Integer.valueOf(novaA);
-				int bbb = Integer.valueOf(novaB);
-
-				if (aaa == bbb) {
-					System.out.println("encaixa");
-				} else {
+				if (a.length() == 2 && b.length() != 2) {
 					System.out.println("nao encaixa");
+				} else {
+					String novaA = a.substring(a.length() - b.length());
+					int novaAA = Integer.valueOf(novaA);
+
+					if (bb == novaAA) {
+						System.out.println("encaixa");
+					} else {
+						System.out.println("nao encaixa");
+					}
 				}
 			}
 		}
-
 		entrada.close();
 	}
 }
