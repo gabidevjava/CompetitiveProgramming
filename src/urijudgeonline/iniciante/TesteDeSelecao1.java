@@ -14,14 +14,11 @@ public class TesteDeSelecao1 {
 		c = entrada.nextInt();
 		d = entrada.nextInt();
 
-		if (b > c && d > a) {
-			int somaDC = d + c;
-			int somaAB = a + b;
-			if (somaDC > somaAB) {
-				if (c > 0 && d > 0 && a % 2 == 0) {
-					System.out.println("Valores aceitos");
-				}
-			}
+		int somaDC = d + c;
+		int somaAB = a + b;
+
+		if (b > c && d > a && somaDC > somaAB && c > 0 && d > 0 && a % 2 == 0) {
+			System.out.println("Valores aceitos");
 		} else {
 			System.out.println("Valores nao aceitos");
 		}
