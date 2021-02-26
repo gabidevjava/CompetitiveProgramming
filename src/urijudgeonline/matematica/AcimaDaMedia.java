@@ -7,30 +7,29 @@ public class AcimaDaMedia {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 
-		int c = entrada.nextInt();
-		int n = entrada.nextInt();
-		int m;
-		float soma, s;
+		int n = entrada.nextInt(), i, s, c;
+		float x;
 
-		for (int i = 0; i < c; i++) {
-			m = entrada.nextInt();
-
-			soma = 0;
+		for (i = 0; i < n; i++) {
+			int m = entrada.nextInt();
+			int[] arr = new int[m];
 			s = 0;
-			int[] num = new int[n];
-
-			for (int ii = 0; ii < n; ii++) {
-				soma+=num[ii];
-			}
-
-			soma /= n;
-
-			for (int iii = 0; iii < n; iii++) {
-				if (num[iii] > soma) s++;
+			x = 0;
+			c = 0;
+			for (int j = 0; j < m; j++) {
+				int o = entrada.nextInt();
+				arr[j] = o;
+				s += arr[j];
+				x = (float) s / (float) m;
 			}
 			
-			System.out.printf("%.3f%c\n", s / n * 100.000, '%');
-			c--;
+			for (int j = 0; j < m; j++) {
+				if (x < (float) arr[j]) c++;
+				
+			}
+			
+			System.out.printf("%.3f%%\n", ((float) c * 100) / (float) m);
+		
 		}
 
 		entrada.close();
