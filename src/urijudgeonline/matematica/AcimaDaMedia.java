@@ -20,11 +20,11 @@ public class AcimaDaMedia {
 				int o = entrada.nextInt();
 				arr[j] = o;
 				s += arr[j];
-				x = (float) s / (float) m;
+				x = s/m;
 			}
 			
 			for (int j = 0; j < m; j++) {
-				if (x < (float) arr[j]) c++;
+				if (x < arr[j]) c++;
 				
 			}
 			
