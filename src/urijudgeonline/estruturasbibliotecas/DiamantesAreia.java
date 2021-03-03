@@ -33,14 +33,18 @@ public class DiamantesAreia {
 				pilha.push(elemnts);
 			}
 			
+			int diamante = 0;
 			for(int l= 0; l < pilha.size(); l++) {
-				if(!(pilha.peek().toString() != pilha.get(l).toString())) {
-					conjunto++;
-					pilha.pop();
-				}
+				 if (pilha.get(l).equals("<")) {
+	                    conjunto++;
+	                } else if (pilha.get(l).equals(">")) {
+	                    if (conjunto > 0) {
+	                        conjunto--;
+	                        diamante++;
+	                    }
+	                }
 			}
-			System.out.println(pilha);
-			System.out.println(conjunto);
+			System.out.println(diamante);
 		}
 		entrada.close();
 	}
